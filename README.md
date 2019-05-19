@@ -1,10 +1,10 @@
-Repository per lo studio di Linguaggi e Tecnologie per il Web
+Progetto LINGUAGGI & TECNOLOGIE PER IL WEB
 
 Argomenti trattati:
 
-- Html
+- Html/5
 - Javascript
-- Html5
-- CSS
+- CSS3
 - JQuery
+- AJAX
 
