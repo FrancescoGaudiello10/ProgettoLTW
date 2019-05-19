@@ -1,0 +1,75 @@
+<html>
+<meta charset="UTF-8">
+  <head>
+    <link href="grafica.css"  rel="stylesheet" type="text/css" />
+    <link href="button.css"  rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet'>
+    <meta name="viewport" content="width-=device-width, initial-scale=1.0"> <!-- Nel caso volessimo usare smarphone o Ipad.-->
+    <meta charset="utf-8">
+    <title>Contatti</title>
+
+    <!-- Funzione javascript -->
+    <script type="text/javascript" language="javascript">
+      //Funzione per cancellare il testo: inserisci..
+      function cancellaCampo(oggetto) {
+        //document.Contatti.oggetto.value="";
+        oggetto.value="";
+        return true;
+      }
+      //Valore di invio
+      function validaInvio(){
+        alert("Campi inseriti correttamente.");
+      }
+    </script>
+
+
+</head>
+
+<body>
+    <br>
+    <!--Menu navigazione-->
+    <ul class="navigazione">
+      <!--selected = Parte da li -->
+      <a href="ProgettoHome.html" class="selected">Home</a>
+      <a href="locali.html">Locali</a>
+      <a href="contatti.html">Contatti</a>
+    </ul>
+
+    <br>
+    <br>
+    <br>
+
+<!-- Per informazioni: -->
+<div style="font-size:200%; font-family: Arial Black; color: firebrick" align="center"> Vuoi suggerire un locale? <br><br> Mandaci un messaggio:  </div>
+    <br>
+    <div align="center">
+
+    <div id="contact">
+      <!-- get spedisce il documento -->
+      <form method="post" name="Contatti" action="" onsubmit="return validaInvio();">
+
+        <label> Nome: </label>
+        <input type="text" id="author" name="author" required class="input_field" value="inserisci il tuo nome"
+        onclick="cancellaCampo(document.Contatti.author);"
+        onfocus="cancellaCampo(document.Contatti.author);"/> <!-- onfocus si verifica quando una funzione diventa attiva -->
+
+        <label> Email:</label>
+        <input type="email" id="email" name="email" required class="input_field" value="inserisci la tua email.."
+        onclick="cancellaCampo(document.Contatti.email);"
+        onfocus="cancellaCampo(document.Contatti.email);"/>
+
+        <label> Messaggio: </label>
+        <textarea id="text" name="text" rows="0" cols="0" value="inserisci una descrizione.."
+        onclick="cancellaCampo(document.Contatti.text);"
+        onfocus="cancellaCampo(document.Contatti.text);"
+        >Inserisci una descrizione..</textarea>
+
+        <br><br>
+        <input class="button" type="submit"  name="submit" id="submit" value="Invia"/> </input>
+        <input class="button" type="reset" name="reset" id="reset" value="Reset" /> </input>
+
+      </form>
+    </div>
+  </div>
+  </body>
+</html>

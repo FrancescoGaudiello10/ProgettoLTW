@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <link href="grafica.css"  rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width-=device-width, initial-scale=1.0"> <!-- Nel caso volessimo usare smarphone o Ipad.-->
+    <link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka the Great' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ma' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sedgwick Ave' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Henny Penny' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Miltonian' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mogra' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Patrick Hand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rosarivo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet'>
+    <meta charset="utf-8">
+
+    <title>Locali</title>
+    <script type="text/javascript" language="javascript">
+    </script>
+
+    <!-- jQuery - scorro la barra verso il basso e alto (Devo importare la libreria) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- PRIMA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel, #flip, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel {
+        padding: 4px;
+        display: none;
+    }
+</style>
+
+<!-- SECONDA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip2").click(function(){
+            $("#panel2").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel2, #flip2, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel2 {
+        padding: 4px;
+        display: none;
+    }
+</style>
+
+<!-- TERZA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip3").click(function(){
+            $("#panel3").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel3, #flip3, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel3 {
+        padding: 4px;
+        display: none;
+    }
+</style>
+
+<!-- QUARTA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip4").click(function(){
+            $("#panel4").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel4, #flip4, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel4 {
+        padding: 4px;
+        display: none;
+    }
+</style>
+
+<!-- QUINTA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip5").click(function(){
+            $("#panel5").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel5, #flip5, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel5 {
+        padding: 4px;
+        display: none;
+    }
+</style>
+
+<!-- SESTA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip6").click(function(){
+            $("#panel6").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel6, #flip6, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel6 {
+        padding: 4px;
+        display: none;
+    }
+</style>
+
+<!-- SETTIMA FUNZIONE JQUERY -->
+<script>
+    $(document).ready(function(){
+        $("#flip7").click(function(){
+            $("#panel7").slideToggle("slow");
+        });
+    });
+</script>
+<style>
+    #panel7, #flip7, {
+        padding: 4px;
+         text-align: center; /* Dove posizionare il testo */
+    }
+    #panel7 {
+        padding: 4px;
+        display: none;
+    }
+</style>
+</head>
+
+<!-- INIZIO BODY Locali -->
+<body>
+    <br>
+    <!--Menu navigazione-->
+    <ul class="navigazione">
+      <!--selected = Parte da li -->
+      <a href="ProgettoHome.html" class="selected">Home</a>
+      <a href="locali.html">Locali</a>
+      <a href="contatti.html">Contatti</a>
+    </ul>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- Titolo -->
+  <div style="font-family: 'Eater'; font-size: 43px; color: #00ff00" align="center"> SCEGLI IL LOCALE ADATTO A TE </div>
+  <br>
+  <br>
+
+<!-- Centro tutta la pagina: -->
+<div align="center">
+
+<!-- Usare <figure><figcaption>... HTML5-->
+<!-- PRIMO LOCALE: -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h3> Room26 </h3></figcaption>
+    <img src="Immagini/Room26.jpg" alt="Room26" width="350" height="250" class="imageborderWhite">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel" class="pannelloJQ">
+  <p class="descr">
+  Questo club ha uno degli impianti audio migliori d'europa.
+  Diviso in due sale, il venerdi propone musica vintage e commerciale, mentre il Sabato house e Made in Italy.
+  <br>
+</p>
+  Aperto il venerdi e il sabato.
+  <br>
+  Orario: 21:00 / 4:30
+  <br>
+  <a class="indirizzo" href="https://www.google.com/maps/place/Room+26/@41.834549,12.470681,16z/data=!4m5!3m4!1s0x0:0x3c073369c59c81e!8m2!3d41.8345492!4d12.4706815?hl=it-IT&shorturl=1"> Indirizzo </a>
+</div>
+<!-- ########################################## -->
+
+<!-- Secondo Locale -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h4> Piper </h4></figcaption>
+    <img src="Immagini/Piper.jpg" alt="Room26" width="350" height="250" class="imageborderRed">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip2"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel2">
+  <p class="descr2">
+    Storico locale notturno di Roma, frequentato un tempo da molte celebrità. Con gli anni è andato a deteriorarsi, finendo per essere un ritrovo di ragazzi appena maggiorenni. Consigliato solo se siete under 25.
+  <br>
+</p>
+  Aperto il venerdi e il sabato.
+  <br>
+  Orario: 23:00 / 5:00
+  <br>
+  <a class="indirizzo" href="https://www.google.it/maps/place/Piper+Club/@41.918928,12.50103,15z/data=!4m2!3m1!1s0x0:0x699054389167b6ae?sa=X&ved=0ahUKEwiT4pG1ov3XAhWHORQKHcUFDhgQ_BIIlwEwDg"> Indirizzo </a>
+</div>
+<!-- ################################################## -->
+
+<!-- Terzo locale -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h5> Chalet Nel Bosco </h5></figcaption>
+    <img src="Immagini/Chalet.jpg" alt="ChaletNelBosco" width="350" height="250" class="imageborderVerde">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip3"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel3">
+  <p class="descr3">
+  Discoteca frequentata da giovani, si trova nei pressi dello Stadio Olimpico. Quasi sempre vi sono eventi che coinvolgono ospiti speciali. Elemento curioso il fatto che il locale in Estate cambia nome in "Bosco delle Fragole".
+</p>
+  <br>
+  Aperto il martedi, giovedi, venerdi, sabato.
+  <br>
+  Orario: 23:00 / 4:00
+  <br>
+  <a class="indirizzo" href="https://www.google.it/maps/place/Chalet+nel+Bosco/@41.9336924,12.4496815,17z/data=!4m5!3m4!1s0x132f60bcff429b25:0x37790859490c80ad!8m2!3d41.9336956!4d12.4518738"> Indirizzo </a>
+</div>
+<!-- ################################################## -->
+
+
+<!-- Quarto locale -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h6> Night Stars </h6></figcaption>
+    <img src="Immagini/NightStars.jpeg" alt="NightStars" width="350" height="250" class="imageborderCeleste">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip4"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel4">
+  <p class="descr4">
+    Locale notturno molto diverso dai precedenti descritti sopra. Ideale per feste ed eventi privati. Il più richiesto è l'addio al celibato, in quanto la compagnia all'interno del locale è molto buona.
+</p>
+  <br>
+  Aperto il lunedi, mercoledi, giovedi, venerdi, sabato e domenica.
+  <br>
+  Orario: 22:30 / 4:00
+  <br>
+  <a class="indirizzo" href="https://www.google.it/maps?q=night+stars+roma&rlz=1C5CHFA_enIT565IT565&um=1&ie=UTF-8&sa=X&ved=0ahUKEwi80NXTy47YAhVRJewKHTz9AncQ_AUIDygA"> Indirizzo </a>
+</div>
+<!-- ################################################## -->
+
+<!-- Quinto locale -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h3> Gregory's Jazz Club </h3></figcaption>
+    <img src="Immagini/Gregory.jpg" alt="Gregory" width="350" height="250" class="imageborderWhite">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip5"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel5">
+  <p class="descr">
+    Uno dei rarissimi locali in centro dove poter ascoltare della buona musica Jazz.
+    <br>
+    L'ambiente è raffinato e piacevole, i cocktail sono ottimi.
+    Consiglio vivamente di prenotare prima in quanto il locale è spesso al completo
+    mentre i prezzi sono leggermente più alti della media.
+</p>
+  <br>
+  Aperto il lunedi, martedi, mercoledi, giovedi, venerdi, sabato e domenica.
+  <br>
+  Orario: 19:00 / 3:30
+  <br>
+  <a class="indirizzo" href="https://www.google.it/maps/place/Gregory's+Jazz+club/@41.90433,12.4830725,17z/data=!3m1!4b1!4m5!3m4!1s0x132f61ab3dc7cc65:0xace20af2dc09bcc0!8m2!3d41.90433!4d12.4852612"> Indirizzo </a>
+</div>
+<!-- ################################################## -->
+
+<!-- Sesto locale -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h4> Exo Club </h4></figcaption>
+    <img src="Immagini/Exo.jpg" alt="Exo" width="350" height="250" class="imageborderRed">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip6"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel6">
+  <p class="descr2">
+    Classico cocktail bar dove poter sentire fino all'alba. Il locale si trova nei pressi di
+    Piazza Navona, ideale per aperiti o dopocene. Ideale per feste dei 18 anni, feste di Laurea o per
+    passare una piacevole e tranquilla serata.
+</p>
+  <br>
+  Aperto il lunedi,  venerdi, sabato e domenica.
+  <br>
+  Orario: 19:30 / 4:30
+  <br>
+  <a class="indirizzo" href="https://www.google.it/maps/place/Ex%C3%B2+Club/@41.8993169,12.4679694,17z/data=!4m5!3m4!1s0x132f60452d762c8f:0x8027092c8d2b8b8a!8m2!3d41.8993169!4d12.4701581"> Indirizzo </a>
+</div>
+<!-- ################################################## -->
+
+<!-- Settimo locale -->
+<div>
+  <figure>
+  <br>
+  <figcaption><h5> Hartigan's Irish Pub </h5></figcaption>
+    <img src="Immagini/Irish.jpg" alt="IrishPub" width="350" height="250" class="imageborderVerde">
+  </figure>
+</div>
+<!-- richiamo jQuery -->
+<label class="pannelloJQ" id="flip7"> Informazioni sul locale, clicca qui. </label>
+<div class="pannelloJQ" id="panel7">
+  <p class="descr3">
+    Un vero IrishPub dove poter cenare e gustare tantissime varietà di Birre.
+    <br>
+    Il locale è molto accogliente, il cibo è soddisfacente e il prezzo non è eccessivo.
+    Consigliamo di provare gli Hamburger insieme ad un bel bicchiere di Birra a vostra scelta.
+</p>
+  <br>
+  Aperto tutti i giorni.
+  <br>
+  Orario: 18:00 / 2:00
+  <br>
+  <a class="indirizzo" href="https://www.google.it/maps/place/Hartigan's+Irish+Pub/@41.9025586,12.4216318,16.48z/data=!4m5!3m4!1s0x132f5fc4fbc88fb9:0x3e2caa54a042885c!8m2!3d41.9018119!4d12.4241813"> Indirizzo </a>
+</div>
+<!-- ################################################## -->
+
+<br>
+<br>
+<br>
+<!-- AUDIO -->
+<div align="center">
+<!-- Controls aggiunge: play, pause e volume - source riconosce la sorgente-->
+<audio controls autoplay loop="true">
+  <source src="Immagini/Maneskin-Chosen.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+</div>
+<br>
+<br>
+<br>
+  </body>
+</html>

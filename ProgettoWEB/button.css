@@ -1,0 +1,20 @@
+.button {
+   border-top: 1px solid #ff5622;
+   background: #ff5622;
+   padding: 8px 16px;
+   border-radius: 9px;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover { /* Passandoci il mouse sopra */
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #ff9900;
+   background: #ff9900;
+   }

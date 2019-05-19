@@ -1,0 +1,77 @@
+<html>
+<meta charset="UTF-8">
+<head>
+<title> Progetto 2017/2018 LTW </title>
+<!-- CSS Esterni! -->
+<link href="grafica.css"  rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Joti One' rel='stylesheet'>
+<meta name="viewport" content="width-=device-width, initial-scale=1.0"> <!-- Nel caso volessimo usare smarphone o Ipad.-->
+</head>
+
+<!-- INIZIO BODY -->
+<body>
+  <br>
+
+  <!-- Menu navigazione -->
+  <ul class="navigazione">
+    <!--selected = Parte da li -->
+    <a href="ProgettoHome.html" class="selected">Home</a>
+    <a href="locali.html">Locali</a>
+    <a href="contatti.html">Contatti</a>
+  </ul>
+<br>
+
+
+  <!-- Descrizione della HOME -->
+  <div align="center">
+    <br>
+    <!-- Titolo con heading h1 -->
+    <h1> TonightInRome </h1>
+    <img src="Immagini/Colosseo.jpg" alt="Colosseo"  width="350" height="250" align="center" class="imageborderWhite">
+    <br>
+    <br>
+    <br>
+    <!-- Uso l'attributo STYLE PER I FORMATI: -->
+    <div style="font-family: Comic Sans MS; color:red"> Cos'è TonightInRome? </div>
+    <p> TONIGHTINROME è un sito OPEN-SOURCE <br>
+        che mostra i locali più "in" di Roma,<br>
+        con descrizione, orario di apertura, chiusura<br>
+        e relativo indirizzo su Google Maps. <br>
+    </p>
+  </div>
+<!-- Fine Descrizione HOME -->
+
+
+<!-- Parte finale della HOME -->
+ <br>
+    <!-- strong rende maiuscolo-->
+<h2 align="center">
+  <strong>Progetto LTW 2017/2018</strong> <!-- strong = grassetto -->
+  <br> Copyright © 2017
+  <br> TOP
+  <br> Aldo e Francesco
+</h2>
+
+<!-- AUDIO -->
+<div align="center">
+<!-- Controls aggiunge: play, pause e volume - source riconosce la sorgente - HTML5-->
+<audio controls autoplay loop="true">
+  <source src="Immagini/Maneskin-Chosen.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+<div style="font-size:16; color: yellow; font-family: Tahoma" align="right">
+  <!-- Semplice funzione per calcolare il giorno odierno in Javascript -->
+  <script type="text/javascript">
+    var data = new Date();
+    var gg, mm, aaaa;
+    gg = data.getDate() + "/";
+    mm = data.getMonth() + 1 + "/";
+    aaaa = data.getFullYear();
+    document.write("Oggi è: " + gg + mm + aaaa);
+  </script>
+</div>
+
+</body>
+</html>

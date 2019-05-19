@@ -1,0 +1,149 @@
+/* MENU A TRE TENDINE INIZIO. */
+
+/* Menù navigazione (Parte UL) */
+ul.navigazione {
+    padding: 0;
+    text-align: center;
+    position: relative;
+    font-family: Comic Sans MS;
+    /*left: 40%; */
+}
+
+/*Collegamenti delle tre pagine - PARTE "a" */
+ul.navigazione a {
+	float: left; /*elementi di fianco*/
+	width: 100px; /*distanza tra loro */
+	height: 32px;
+	color: orange;
+	font-size: 15px;
+	font-weight: 800;
+}
+/* MENU A TRE TENDINE FINE. */
+
+/* Body - TUTTO IL CORPO DELLE TRE PAGINE*/
+body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+  font-family: 'Flamenco';
+	font-size: 19px;
+	line-height: 1.5em; /*Separatore*/
+  background-color: #022237; /* Sfondo del body */
+}
+
+/* GLI HEADING */
+/* h1 -> Titolo della HOME */
+h1 {
+  font-size: 30px;
+  font-family: 'Joti One';
+  margin: 35px ;
+  font-weight: normal;
+  color: firebrick;
+}
+/* h2 -> Parte FINALE della HOME. */
+h2 {
+  font-size: 16px;
+  color: green;
+  font-family: Times
+}
+
+/* Nomi dei locali*/
+h3 {
+  font-size: 23px;
+  color: #ff3300;
+  font-family: Fredericka the Great;
+}
+h4 {
+  font-size: 23px;
+  font-family: 'Sedgwick Ave';
+  color: #F0FF75;
+}
+h5 {
+  font-size: 23px;
+  font-family: 'Henny Penny';
+  color: #00ff00;
+}
+h6 {
+  font-size: 23px;
+  font-family: 'Miltonian';
+  color: #00ffff;
+}
+
+
+/* Coloro il paragrafo nascosto sotto le foto */
+p.descr{
+  font-family: 'Rosarivo';
+  color: #ff0000;
+}
+p.descr2{
+  font-family:'Mogra';
+  color: #ffff00
+}
+p.descr3{
+  font-family:'Patrick Hand';
+  color: #33cc33
+}
+p.descr4{
+  font-family:'Lora';
+  color: #e68a00
+}
+
+/*BORDI alle foto:*/
+.imageborderWhite {
+  border: 10px solid #ffffff;
+}
+.imageborderRed{
+  border: 10px solid #ff3300;
+}
+.imageborderBlack{
+  border: 10px solid #000000;
+}
+.imageborderCeleste{
+  border: 10px solid #00ffff
+}
+.imageborderVerde{
+  border: 10px solid #33cc33
+}
+
+a.indirizzo{
+  font-family: 'Margarine';
+  color: green;
+}
+/* MENU PER INFORMAZIONI */
+#contact form .input_field {
+	width: 300px;
+	padding: 5px;
+	background: #1b1a1a;
+	border: 2px solid #3b3a3a;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 13px;
+	color: #aaa;
+	margin-top: 5px;
+}
+#contact form label {
+	display: block;
+	width: 100px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+#contact form textarea {
+	width: 368px;
+	height: 100px;
+	padding: 5px;
+	background: #1b1a1a;
+	border: 1px solid #3b3a3a;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	color: #aaa;
+	margin-top: 5px;
+}
+
+
+.pannelloJQ{
+  border: 5px solid #000000;
+  background: #4d4d4d;
+  padding: 20px 40px;
+  border-radius: 40px;
+  font-size: 20px;
+  vertical-align: middle;
+}
