@@ -16,3 +16,20 @@ Vi è un campo "*suggerisci*" il quale permette a un utente di suggerire il prop
 
 Esempio:
 
+
+<p align="center">
+  <img src="ProgettoWEB/Immagini/1.png" width="700" />
+</p>
+
+
+
+<p align="center">
+  <img src="ProgettoWEB/Immagini/2.png" width="700" />
+</p>
+
+
+
+<p align="center">
+  <img src="ProgettoWEB/Immagini/3.png" width="700" />
+</p>
+
